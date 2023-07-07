@@ -1,0 +1,86 @@
+
+  /*This is to style the header*/
+  img {
+    width: 40px;
+    height: 35px;  
+  }
+  .header {
+    border: 2px solid #d3d3d3;
+    
+}
+  
+h1 {
+       font-size: medium;
+ }
+ #signup a:hover{
+         background-color: lightgray;
+         text-align: right;
+ }
+
+ 
+ 
+ /*Style of the section*/
+ .section{
+     text-align: center;
+     font-size: 20px;
+     border-style: solid lightgray;
+     padding-bottom: 50px;
+     
+ }
+ /*Style of links*/
+ nav{
+     text-align: center;
+     font-size: 20px;  
+     
+ }
+ 
+ h2 {
+    font-size:large;
+    color: light black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ #Google {
+      border-style: solid lightgray;
+ }
+ input[type=button] {
+    background-color:lightskyblue;
+    border: none;
+    color: white;
+    padding: 12px 58px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer
+ }
+ 
+ /*Style of the footer*/
+ #footer {
+     background-color: black;
+     color:white;
+     height: 130px;
+     padding-top: 30px;
+     padding-bottom: 300px;
+     text-align: center;
+ }
+
+table {
+    width: 50%;
+    padding-left: 300px;
+    padding-right: 25px;
+ }
+td {
+    height: 20px;
+    vertical-align:top;
+    padding-bottom: 5px;
+    text-align: left;
+    font-size: medium;
+}
+
+th {
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: x-large;
+}
+
+
+ 
