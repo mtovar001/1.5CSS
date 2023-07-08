@@ -1,37 +1,48 @@
 
   /*This is to style the header*/
-  img {
-    width: 40px;
-    height: 35px;  
+  body {
+      margin: 0px;
   }
-  .header {
-    border: 2px solid #d3d3d3;
-    
-}
-  
-h1 {
-       font-size: medium;
- }
- #signup a:hover{
-         background-color: lightgray;
-         text-align: right;
- }
 
- 
- 
- /*Style of the section*/
- .section{
-     text-align: center;
-     font-size: 20px;
-     border-style: solid lightgray;
-     padding-bottom: 50px;
-     
+  
+  img {
+    float: left;
+    padding-right: 20px;
+    width: 45px;
+    height: 45px; 
+      }
+  .header {
+    border: 1px solid #d3d3d3;  
+    
+    }
+  
+  h1 {
+       font-size:x-large;
  }
+ 
+ input[type=signup] {
+    border: none;
+    color: gray;    
+    text-decoration: none;
+    cursor: pointer;
+    width: 45px;
+    height: fit-content;
+    float: right;
+    
+   
+    
+    
+ }
+ input[type=signup]:hover{
+    background-color: lightgray;
+    opacity:calc(2);
+}
+ 
+     
  /*Style of links*/
  nav{
      text-align: center;
-     font-size: 20px;  
-     
+     font-size: 20px;       
  }
  
  h2 {
@@ -40,26 +51,80 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
  
- #Google {
-      border-style: solid lightgray;
+ .align-items {
+    display: flex;
+    align-items:center
  }
- input[type=button] {
+ .align-items > div {
+    border-style: solid gray;
+ }
+
+
+/*form style*/
+.section{
+    font-size: 20px;
+    border-style: solid lightgray;
+    padding-bottom: 20px; 
+    padding-left: 550px
+}
+
+input{
+    width: 280px;
+    height: 20px;
+    
+}
+
+input[type=google], input[type=apple] {
+    background-color: white;
+    border-style: solid;
+    border-color: lightgrey;
+    color: black;
+    padding: 9px 10px;
+    text-decoration: none;
+    margin: 3px 0px;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    
+     }
+
+ input[type=google]:hover{
+    background-color: lightgray;
+ }
+
+ input[type=apple]:hover{
+    background-color: lightgray;
+ }
+
+input[type=email] {
+    padding: 5px 7px;
+    width: 50;
+    text-align: left;
+}
+ input[type=continue] {
     background-color:lightskyblue;
     border: none;
     color: white;
-    padding: 12px 58px;
+    padding: 10px 10px;
     text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer
+    margin: 4px 6px;
+    cursor: pointer;
+    text-align: center;
+    min-width: 10px;
+    
+     }
+
+ input[type=continue]:hover{
+    background-color:cadetblue
  }
  
  /*Style of the footer*/
  #footer {
      background-color: black;
      color:white;
-     height: 130px;
+     height: 50px;
      padding-top: 30px;
-     padding-bottom: 300px;
+     padding-bottom: 230px;
      text-align: center;
  }
 
@@ -67,6 +132,7 @@ table {
     width: 50%;
     padding-left: 300px;
     padding-right: 25px;
+   
  }
 td {
     height: 20px;
@@ -74,6 +140,7 @@ td {
     padding-bottom: 5px;
     text-align: left;
     font-size: medium;
+    align-content: space-between;
 }
 
 th {
@@ -81,6 +148,6 @@ th {
     padding-bottom: 10px;
     font-size: x-large;
 }
-
+ 
 
  
